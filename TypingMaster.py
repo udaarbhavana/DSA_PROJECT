@@ -87,7 +87,7 @@ def main():
                 print("Invalid category choice.")
                 continue
 
-            num_words = int(input("Enter the number of words to practice (1-200): "))
+            num_words = int(input("Enter the number of words to practice (1-20): "))
 
             words = load_words_from_json(selected_category)
 
